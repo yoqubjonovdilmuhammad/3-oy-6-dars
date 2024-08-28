@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/fonts.css" />
+    <link rel="stylesheet" href="./style/normalize.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="nav__bar">
+        <div class="nav__head">
+          <div class="nav__head--logo">
+            <img src="./images/logotip.jpg" alt="" width="40" height="40" />
+            <span> CodingLab</span>
+          </div>
+          <nav>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#"
+                  ><img
+                    class="dashboard__img"
+                    src="./images/dashboard.svg"
+                    alt="Dashboard"
+                    width="24"
+                    height="24" /></a
+                ><a href="#">Dashboard</a>
+              </li>
+              <li class="nav__item">
+                <a href="#"
+                  ><img
+                    class="dashboard__img"
+                    src="./images/content.svg"
+                    alt="content"
+                    width="24"
+                    height="24" /></a
+                ><a href="#">Content</a>
+              </li>
+              <li class="nav__item">
+                <a href="#"
+                  ><img
+                    class="dashboard__img"
+                    src="./images/analytics.svg"
+                    alt="analytics"
+                    width="24"
+                    height="24" /></a
+                ><a href="#">Analytics</a>
+              </li>
+              <li class="nav__item">
+                <a href="#"
+                  ><img
+                    class="dashboard__img"
+                    src="./images/like.svg"
+                    alt="like"
+                    width="24"
+                    height="24" /></a
+                ><a href="#">Like</a>
+              </li>
+              <li class="nav__item">
+                <a href="#"
+                  ><img
+                    class="dashboard__img"
+                    src="./images/comment.svg"
+                    alt="comment"
+                    width="24"
+                    height="24"
+                /></a>
+                <a href="#">Comment</a>
+              </li>
+              <li class="nav__item">
+                <a href="#"
+                  ><img
+                    class="dashboard__img"
+                    src="./images/share.svg"
+                    alt="share"
+                    width="24"
+                    height="24" /></a
+                ><a href="#">Share</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="nav__foot">
+          <a href="#" class="logout">
+            <img
+              class="dashboard__img"
+              src="./images/logout.svg"
+              alt="logout"
+              width="24"
+              height="24"
+            />
+            <span>Logout</span>
+          </a>
+          <div class="dark__mode">
+            <img
+              class="dashboard__img mode__img"
+              src="./images/dark-mode-iconka.svg"
+              alt="dakrmode"
+              width="24"
+              height="24"
+            />
+            <span>Dark Mode</span>
+            <label for="" class="switch">
+              <input type="dark__check" />
+              <span class="dark__check--slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <main class="main">
+        <header class="header">
+          <div class="header__container container">
+            <a href="#"
+              ><img
+                src="./images/chekbox.svg"
+                alt="checkbox"
+                width="26"
+                height="26"
+            /></a>
+            <div class="header__search">
+              <img
+                src="./images/searchicon.svg"
+                alt="search icon"
+                width="30"
+                height="30"
+              />
+              <input type="text" placeholder="Search here..." />
+            </div>
+            <img
+              class="username"
+              src="./images/username.svg"
+              alt="username"
+              width="40"
+              height="40"
+            />
+          </div>
+        </header>
+        <div class="dashboard">
+          <div class="dashboard__container container">
+            <div class="dashboard__top">
+              <img
+                src="./images/dashboard-right.svg"
+                alt="dashboard"
+                width="35"
+                height="35"
+              />
+              <h2>Dashboard</h2>
+            </div>
+            <div class="dashboard__bottom">
+              <div class="all__dashboard blue__dashboard">
+                <img
+                  src="./images/like.svg"
+                  alt="like"
+                  width="35"
+                  height="35"
+                />
+                <h3>Total Likes</h3>
+                <h4>50,120</h4>
+              </div>
+              <div class="all__dashboard bisque__dashboard">
+                <img
+                  src="./images/comment.svg"
+                  alt="comment"
+                  width="35"
+                  height="35"
+                />
+                <h3>Comments</h3>
+                <h4>20,120</h4>
+              </div>
+              <div class="all__dashboard pink__dashboard">
+                <img
+                  src="./images/share.svg"
+                  alt="share"
+                  width="35"
+                  height="35"
+                />
+                <h3>Total Share</h3>
+                <h4>10,120</h4>
+              </div>
+            </div>
+          </div>
+          >
+        </div>
+        <div class="activity">
+          <div class="activity__container container">
+            <div class="activity__top">
+              <img
+                src="./images/clock.svg"
+                alt="clock"
+                width="35"
+                height="35"
+              />
+              <h3>Recent Activity</h3>
+            </div>
+            <div class="activity__bottom">
+              <table class="table">
+                <tr>
+                  <th>
+                    <label for="mycheck"></label
+                    ><input type="checkbox" id="mycheck" />
+                  </th>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Joined</th>
+                  <th>Type</th>
+                  <th>Status</th>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Prem Shahi</td>
+                  <td>premshahi@gmail.com</td>
+                  <td>2022-02-12</td>
+                  <td>New</td>
+                  <td>Liked</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Deepa Chand</td>
+                  <td>deepachand@gmail.com</td>
+                  <td>2022-02-12</td>
+                  <td>Member</td>
+                  <td>Liked</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Manisha Chand</td>
+                  <td>manishachand@gmail.com</td>
+                  <td>2022-02-13</td>
+                  <td>Member</td>
+                  <td>Liked</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Pratima Shahi</td>
+                  <td>pratimashhai@gmail.com</td>
+                  <td>2022-02-13</td>
+                  <td>New</td>
+                  <td>Liked</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Man Shahi</td>
+                  <td>manshahi@gmail.com</td>
+                  <td>2022-02-14</td>
+                  <td>Member</td>
+                  <td>Liked</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Ganesh Chand</td>
+                  <td>ganeshchand@gmail.com</td>
+                  <td>2022-02-14</td>
+                  <td>New</td>
+                  <td>Liked</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Bikash Chand</td>
+                  <td>prakashhai@gmail.com</td>
+                  <td>2022-02-15</td>
+                  <td>Member</td>
+                  <td>Liked</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
