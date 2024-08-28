@@ -272,9 +272,10 @@ th {
 td {
   font-size: 18px;
 }
-input[type="checkbox"] {
+.tabel__checkbox {
   accent-color: var(--primary-color);
   height: 30px;
   width: 30px;
 }
+
 
